@@ -26,6 +26,11 @@
         margin-bottom: 1.35rem;
         cursor: pointer;
 
+        @media (max-width: 600px) {
+            width: 100%;
+            height: auto;
+        }
+
         &:hover {
             box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
             -moz-transform: scale(1.1);
