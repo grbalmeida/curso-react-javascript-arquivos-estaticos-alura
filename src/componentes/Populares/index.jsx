@@ -1,5 +1,6 @@
 import styles from './Populares.module.scss';
 import fotosPopulares from './fotos-populares.json';
+import Botao from 'componentes/Botao';
 
 export default function Populares() {
     return (
@@ -12,7 +13,7 @@ export default function Populares() {
                     </li>
                 ))}
             </ul>
-            <button>Ver mais fotos</button>
+            <Botao>Ver mais fotos</Botao>
         </aside>
     );
 }
